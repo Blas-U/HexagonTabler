@@ -10,15 +10,21 @@ Objective: Create a table that detects when you touch it and lights up LEDs on a
 * LED strips
 
 # Procedure
-salder a raspberry pi
-salder the corresponding wires to the right spots of the sensor and the LEDs
-test what sets off the sensor
-print the mold using the laser 
-Add the LEDs 
-hot glue the sensor and test that it works through the wood.
+* Solder a raspberry pi
+* Solder the corresponding wires to the right spots on the sensor and LEDs
+* Test what sets off the sensor
+* Print the mold using the laser 
+* Add the LEDs 
+* Hot glue the sensor and test that it works through the wood.
 
 
-# Discussion
-Blas fails a lot 
-Lots of prototypes 
-We figured a lot of the project out the hard way while attemting to create this. Mostly because there wasn't a solid guide on how things should be arranged and there where some more detailed things that we needed to do. We also changed a lot from the video. Over all the project went great and we succeded in finishing close to what we actually wanted. We can see in the future what needs to be imporoved on and what we are going to work on with this project because we want to make an atual table.      
+# Discussion 
+* We went through multiple prototypes testing what would and wouldn't work
+** Many of the learning experiences we went through was by learning the hard way.
+* Our inspiration for this table was a video that made the table using a CNC machine. Because we were short of time, we were unable to use our CNC machine, and as a result we needed to come up with a different idea. This is what led to our multiple prototypes and failures. 
+* Over all the project went well and we succeded in making a product similar to what our original idea was. In the future we want to make the actual table using the CNC machine and we will learn from our struggles in this project.     
+
+
+README: make it professional 
+blog post: picture w/ blurb explaining pictures and explaining falilures
+code: clean up code to make a class
