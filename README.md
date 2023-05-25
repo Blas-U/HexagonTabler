@@ -31,6 +31,6 @@ Our goal for this proeject was to create a table that would detect touch, and li
 * Over all the project went well and we succeded in making a product similar to what our original idea was. In the future we want to make the actual table using the CNC machine and we will learn from our struggles in this project.     
 
 
-README: make it professional 
+
 blog post: picture w/ blurb explaining pictures and explaining falilures
 code: clean up code to make a class
