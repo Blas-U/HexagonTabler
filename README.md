@@ -3,6 +3,8 @@
 # Objective 
 Our goal for this proeject was to create a table that would detect touch, and light up individual hexagons based on the location of the touch.
 
+Blog Post: (https://soriki.com/makerspace/2023/05/24/hexagon-table)
+
 # Materials
 * Birch wood (hexagons and outline of circles)
 * Hot glue
@@ -32,5 +34,3 @@ Our goal for this proeject was to create a table that would detect touch, and li
 
 
 
-blog post: picture w/ blurb explaining pictures and explaining falilures
-code: clean up code to make a class
