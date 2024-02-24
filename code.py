@@ -25,18 +25,32 @@ class hexFunc:
             self.ledPix.clear()
 
 hexs = []
-hexs.append(hexFunc(color = [0,50,0]))
-hexs.append(hexFunc(board.GP9, board.GP11))
-hexs.append(hexFunc(board.GP14, board.GP12))
-hexs.append(hexFunc(board.GP5, board.GP4))
-hexs.append(hexFunc(board.GP13, board.GP2))
-hexs.append(hexFunc(board.GP3, board.GP1))
-hexs.append(hexFunc(board.GP17, board.GP0, [50,0,0]))
+# hexs.append(hexFunc(color = [0,50,0]))
+hexs.append(hexFunc(board.GP2, board.GP3, [50,0,0]))
+hexs.append(hexFunc(board.GP10, board.GP11))
+hexs.append(hexFunc(board.GP12, board.GP13))
+hexs.append(hexFunc(board.GP16, board.GP17))
+hexs.append(hexFunc(board.GP18, board.GP19))
+hexs.append(hexFunc(board.GP20, board.GP21, [50,0,0]))
+# control hex
+hexs.append(hexFunc(board.GP14, board.GP15))
 
 
 
 while True:
-    for i in hexs:
-        i.Hexagon()
+    for hex in hexs[:-1]:
+        #i.Hexagon()
+        if hex.touch.value:
+            hex.ledPix.setColor(hex.color)
+        else:
+            hex.ledPix.clear()
+    if hexs[-1].touch.value:
+        for hex in hexs[:-1]:
+            hex.ledPix.setColor(hex.color)
+        while hexs[-1].touch.value:
+            pass
+        for hex in hexs[:-1]:
+            hex.ledPix.clear()
+
 
 
